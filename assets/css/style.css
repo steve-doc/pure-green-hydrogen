@@ -40,7 +40,7 @@ a {
 
 .hero {
   height: 600px;
-  background: url(/assets/images/waterfall.webp) no-repeat center center;
+  background: url(../images/waterfall.webp) no-repeat center center;
   background-position: fixed;
   display: flex;
   align-items: center;
