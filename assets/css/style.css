@@ -7,9 +7,13 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   display: flex;
-  background-color: #84c733;
+  background-color: #649b21;
   color: ivory;
   justify-content: space-between;
   align-items: center;
@@ -23,8 +27,15 @@ body {
 .nav-bar {
   display: flex;
   gap: 10px;
-  text-decoration: none;
   list-style: none;
+}
+
+.nav-bar a {
+  color: ivory;
+}
+
+.current {
+  border-bottom: 1px solid ivory;
 }
 
 .hero {
@@ -41,17 +52,20 @@ body {
   color: ivory;
   background-color: rgb(58, 41, 35, .5);
   margin: 2em;
+  padding: 1em;
   display: inline;
   border-radius: 15px;
 }
 
 .what-section {
-  background-color: #84c733;
+  background-color: #9CEB48;
 }
 
 .row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1em;
 }
 
 .col {
@@ -64,3 +78,21 @@ body {
   padding: 1em 0;
   font-size: 2em;
 }
+
+.footer {
+  background-color: #649b21;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.process-section {
+  background-color: #ACACB7;
+}
+
+.shadow {
+  box-shadow: rgba(17, 16, 16, 0.317) 5px 5px;
+}
+
+
