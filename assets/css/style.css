@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  background-color: #84c733;
+  color: ivory;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header h1 {
+  font-weight: 400;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.hero {
+  height: 600px;
+  background: url(/assets/images/waterfall.webp) no-repeat center center;
+  background-position: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  width: 350px;
+  font-size: 1.8em;
+  color: ivory;
+  background-color: rgb(58, 41, 35, .5);
+  margin: 2em;
+  display: inline;
+  border-radius: 15px;
+}
+
+.what-section {
+  background-color: #84c733;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  padding: 0 1em;
+}
+
+.s-heading{
+  text-align: center;
+  margin: 0 auto;
+  padding: 1em 0;
+  font-size: 2em;
+}
