@@ -61,12 +61,16 @@ a {
 
 .what-sect {
   /* background-color: #A5B4CD; */
-  background-image: linear-gradient(to right, #a4b4cc , #e5e1de);
+  background-image: linear-gradient(to right,  #767270, #a4b4cc);;
 }
 
 .process-sect {
   /* background-color: #74AB96; */
   background-image: linear-gradient(to right, #04863f , #39c692);
+}
+
+#contact {
+  background-image: linear-gradient(to right, #767270, #a4b4cc);
 }
 
 
