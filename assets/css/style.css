@@ -42,7 +42,7 @@ a {
   padding-bottom: 0 !important;
 }
 .hero {
-  height: 600px;
+  height: 500px;
   background: url(../images/waterfall.webp) no-repeat center top;
   background-position: fixed;
   background-attachment: scroll;
@@ -66,7 +66,7 @@ a {
 
 .process-sect {
   /* background-color: #74AB96; */
-  background-image: linear-gradient(to right, #95ad34 , #cbeb4c);
+  background-image: linear-gradient(to right, #04863f , #39c692);
 }
 
 
