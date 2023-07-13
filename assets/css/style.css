@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 body {
   box-sizing: border-box;
@@ -13,8 +13,8 @@ a {
 
 .header {
   display: flex;
-  background-color: #649b21;
-  color: ivory;
+  background-color: #333333;
+  color: #A9A9A9;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
@@ -24,39 +24,53 @@ a {
   font-weight: 400;
 }
 
-.nav-bar {
-  display: flex;
-  gap: 10px;
-  list-style: none;
-}
 
 .nav-bar a {
-  color: ivory;
+ text-decoration: none;
+ color: #A9A9A9;
+}
+
+.nav-bar a:hover {
+  color: #dad8d8;
 }
 
 .current {
   border-bottom: 1px solid ivory;
-}
+} */
 
+.navbar {
+  padding-bottom: 0 !important;
+}
 .hero {
   height: 600px;
-  background: url(../images/waterfall.webp) no-repeat center center;
+  background: url(../images/waterfall.webp) no-repeat center top;
   background-position: fixed;
-  display: flex;
-  align-items: center;
+  background-attachment: scroll;
+  /* display: flex;
+  align-items: center; */
 }
 
 .hero-text {
-  width: 350px;
-  font-size: 1.8em;
+  width: 45%;
   color: ivory;
   background-color: rgb(58, 41, 35, .5);
-  margin: 2em;
+  margin: 4em 2em 0 4em;
   padding: 1em;
-  display: inline;
   border-radius: 15px;
 }
 
+.what-sect {
+  /* background-color: #A5B4CD; */
+  background-image: linear-gradient(to right, #a4b4cc , #e5e1de);
+}
+
+.process-sect {
+  /* background-color: #74AB96; */
+  background-image: linear-gradient(to right, #95ad34 , #cbeb4c);
+}
+
+
+/* 
 .what-section {
   background-color: #9CEB48;
 }
@@ -95,4 +109,4 @@ a {
   box-shadow: rgba(17, 16, 16, 0.317) 5px 5px;
 }
 
-
+ */
