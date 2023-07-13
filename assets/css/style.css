@@ -37,15 +37,26 @@ a {
 .current {
   border-bottom: 1px solid ivory;
 } */
+.navigation a {
+  color: whitesmoke;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation a {
+    color: rgb(92, 92, 92);
+  }
+}
 
 .navbar {
   padding-bottom: 0 !important;
+  /* background-color: rgba(162, 167, 169, 0.6); */
 }
 .hero {
   height: 500px;
   background: url(../images/waterfall.webp) no-repeat center top;
   background-position: fixed;
   background-attachment: scroll;
+  position: relative;
   /* display: flex;
   align-items: center; */
 }
@@ -54,9 +65,12 @@ a {
   width: 45%;
   color: ivory;
   background-color: rgb(58, 41, 35, .5);
-  margin: 4em 2em 0 4em;
+  /* margin: 4em 2em 0 4em; */
   padding: 1em;
   border-radius: 15px;
+  position: absolute;
+  top: 250px;
+  left: 50px;
 }
 
 .what-sect {
@@ -66,7 +80,7 @@ a {
 
 .process-sect {
   /* background-color: #74AB96; */
-  background-image: linear-gradient(to right, #04863f , #39c692);
+  background-image: linear-gradient(to right, #6B8233 , #839A38);
 }
 
 #contact {
