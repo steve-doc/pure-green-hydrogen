@@ -2,17 +2,14 @@
 
 body {
   max-width: 1300px;
+  margin: 0 auto !important;
 }
 
-@media (max-width: 768px) {
-  .navbar-collapse,
-  .navbar-collapse .navbar-nav .nav-item .nav-link {
-      color: #FFFFFF;
-  }
-  .navbar-nav {
-    width: 30%;
-    background-color: rgb(58, 41, 35, .3);
-  }
+
+.btn-contact{
+  padding: 0 !important;
+  /* background-color: lime !important; */
+  color: white !important;
 }
 
 .navbar {
@@ -30,7 +27,7 @@ body {
 }
 
 .hero-text {
-  width: 45%;
+  width: 55%;
   color: ivory;
   background-color: rgb(58, 41, 35, .5);
   /* margin: 4em 2em 0 4em; */
@@ -53,6 +50,23 @@ body {
 
 #contact {
   background-image: linear-gradient(to right, #767270, #a4b4cc);
+}
+
+
+@media (max-width: 768px) {
+  .navbar-collapse,
+  .navbar-collapse .navbar-nav .nav-item .nav-link {
+      color: #FFFFFF;
+  }
+  .navbar-nav {
+    width: 30%;
+    background-color: rgb(58, 41, 35, .3);
+  }
+
+  .hero-text {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 
