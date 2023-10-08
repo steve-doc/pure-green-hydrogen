@@ -36,15 +36,15 @@ body {
 }
 
 .hero-text {
-  max-width: 55%;
+  max-width: 45%;
   color: ivory;
   background-color: rgb(58, 41, 35, .5);
   /* margin: 4em 2em 0 4em; */
   padding: 1em;
   border-radius: 15px;
   position: absolute;
-  top: 250px;
-  left: 50px;
+  top: 200px;
+  left: 100px;
 }
 
 .what-sect {
@@ -73,7 +73,8 @@ body {
   }
 
   .hero-text {
-    top: 200px;
+    left: 50px;
+    max-width: 65%;
     margin: 0 auto;
   }
 }
