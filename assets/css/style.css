@@ -5,6 +5,9 @@ body {
   margin: 0 auto !important;
 }
 
+.container-md {
+  max-width: 1140px !important;
+}
 
 .btn-contact{
   padding: 0 !important;
@@ -68,13 +71,13 @@ body {
       color: #FFFFFF;
   }
   .navbar-nav {
-    width: 30%;
+    width: 25%;
     background-color: rgb(58, 41, 35, .3);
   }
 
   .hero-text {
     left: 50px;
-    max-width: 65%;
+    max-width: 60%;
     margin: 0 auto;
   }
 }
