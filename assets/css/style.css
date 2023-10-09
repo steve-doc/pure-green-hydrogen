@@ -51,13 +51,13 @@ body {
 }
 
 .what-sect {
-  /* background-color: #A5B4CD; */
-  background-image: linear-gradient(to right,  #767270, #a4b4cc);;
+  background-color: white;
+  /* background-image: linear-gradient(to right,  #767270, #a4b4cc); */
 }
 
 .process-sect {
-  /* background-color: #74AB96; */
-  background-image: linear-gradient(to right, #5b6e28 , #99b344);
+  background-color: #e3e3e3;
+  /* background-image: linear-gradient(to right, #5b6e28 , #99b344); */
 }
 
 #contact {
