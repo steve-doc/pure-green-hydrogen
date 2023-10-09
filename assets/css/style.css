@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Montserrat:wght@400;500;600;700&display=swap');
+
 
 body {
   max-width: 1300px;
@@ -25,12 +26,14 @@ body {
 }
 
 .navbar-brand {
-  font-family: 'Concert One', cursive;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
   font-size: 2.5rem !important;
 }
 
 .title-g {
-  color: lightgreen;
+  color: mediumseagreen;
 }
 
 .title-h {
