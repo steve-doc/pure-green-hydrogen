@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Karla:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
+:root {
+  --green: mediumseagreen;
+  --blue: dodgerblue;
+}
 
 body {
   max-width: 1300px;
@@ -24,6 +28,14 @@ p {
   background-color: #e3e3e3;
 }
 
+.col--green {
+  color: var(--green);
+}
+
+.col--blue {
+  color: var(--blue);
+}
+
 .container-md {
   max-width: 1140px !important;
 }
@@ -32,6 +44,10 @@ p {
   padding: 0 !important;
   /* background-color: lime !important; */
   color: white !important;
+}
+
+.navigation {
+  background-color: white;
 }
 
 .navbar {
@@ -46,15 +62,16 @@ p {
   font-size: 2.5rem !important;
 }
 
-.title-g {
-  color: mediumseagreen;
+.col--green {
+  color: #3cb371;
 }
 
-.title-h {
+.col--blue {
   color: dodgerblue;
 }
 
 .nav-link.active {
+  padding-bottom: 2px;
   border-bottom: solid 2px;
 }
 
@@ -109,6 +126,10 @@ p {
 .what-sect {
   background-color: white;
   /* background-image: linear-gradient(to right,  #767270, #a4b4cc); */
+}
+
+.col-heading {
+  color: var(--green);
 }
 
 .process-sect {

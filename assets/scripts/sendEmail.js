@@ -15,22 +15,3 @@ function sendMail(contactForm) {
     );
     return false;  // To block from loading a new page
 }
-
-
-
-{/* <script type="text/javascript">
-window.onload = function() {
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        // generate a five digit number for the contact_number variable
-        this.contact_number.value = Math.random() * 100000 | 0;
-        // these IDs from the previous steps
-        emailjs.sendForm("service_qg9iuvl","template_szeqs67", this)
-            .then(function() {
-                console.log('SUCCESS!');
-            }, function(error) {
-                console.log('FAILED...', error);
-            });
-    });
-}
-</script> */}
