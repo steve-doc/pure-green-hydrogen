@@ -62,14 +62,30 @@ p {
   text-align: center;
 }
 
-.hero {
-  height: 80vh;
+.hero-old {
+  height: 60vh;
   background: url(../images/waterfall.webp) no-repeat center top;
   background-position: fixed;
   background-attachment: scroll;
   position: relative;
   /* display: flex;
   align-items: center; */
+}
+
+.hero {
+  /* height: 600px !important; */
+  /*background-position: fixed;
+  background-attachment: scroll; */
+  position: relative;
+  /* display: flex;
+  align-items: center; */
+}
+
+.carousel-item img {
+  display: block;
+  width: 100vw;
+  height: 60vh;
+  object-fit: cover; /* or object-fit: contain; */
 }
 
 .hero-text {
@@ -80,8 +96,14 @@ p {
   padding: 1em;
   border-radius: 15px;
   position: absolute;
-  top: 250px;
+  top: 225px;
   left: 100px;
+  z-index: 99;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
 }
 
 .what-sect {
