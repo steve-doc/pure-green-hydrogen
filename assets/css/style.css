@@ -75,6 +75,11 @@ p, ul {
   border-bottom: solid 2px;
 }
 
+.insights:hover,
+.insights:active {
+  color: #46d888;
+}
+
 .nav-link {
   text-align: center;
 }
