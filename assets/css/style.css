@@ -20,7 +20,7 @@ h6
   font-family: 'Montserrat', sans-seri
 }
 
-p {
+p, ul {
   font-family: 'Karla', sans-serif;
 }
 
@@ -128,13 +128,30 @@ p {
   /* background-image: linear-gradient(to right,  #767270, #a4b4cc); */
 }
 
+.card {
+  height: 95% !important;
+}
+
+.card-body {
+  padding-bottom: 0 !important;
+}
+
+.card-text {
+  margin-bottom: 0;
+}
+
+.card-footer {
+  background-color: #e3e3e3 !important;
+  border-top: 0 !important;
+  padding-top: 0 !important;
+}
+
 .col-heading {
   color: var(--green);
 }
 
-.process-sect {
-  /* background-color: #e3e3e3; */
-  /* background-image: linear-gradient(to right, #5b6e28 , #99b344); */
+.platform-sect {
+  background-color: white;
 }
 
 #contact {
