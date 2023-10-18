@@ -1,5 +1,8 @@
+
 function sendMail(contactForm) {
     emailjs.send("service_0a3s8xf","template_szeqs67", {
+        "to_email": "sdoc67@gmail.com",
+        "website": "PureGH2",
         "from_name": contactForm.name.value,
         "from_email": contactForm.email.value,
         "from_tel": contactForm.tel.value,
@@ -7,6 +10,7 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
+            contactForm.reset();
             console.log("SUCCESS", response);
         },
         function(error) {

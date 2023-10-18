@@ -74,11 +74,11 @@
             </div>
           </div>
         </nav>
-        <div class="hero-text">
+        <!-- <div class="hero-text">
           <h2 class="h2">
             How do you transform this into an endless source of clean power?
           </h2>
-        </div>
+        </div> -->
       </div>
     </header>
 
@@ -89,7 +89,7 @@
         <p class="text-center">
           If you would like to find out more please fill in your details.
         </p>
-        <!-- <input type="hidden" name="contact_number"> -->
+        <!-- <input type="hidden" name="website" placeholder="PureGH2"> -->
         <input
           class="form-control my-3"
           type="text"
@@ -125,9 +125,48 @@
           class="btn btn-success btn-md-lg d-grid gap-2 col-4 mx-auto"
           type="submit"
           value="Submit"
+          data-bs-toggle="modal"
+          data-bs-target="#acknowledge"
         >Send</button>
       </form>
+
+      <div class="modal" tabindex="-1" id="acknowledge">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content text-center">
+            <div class="modal-header bg-success">
+              <h5 class="modal-title">Thanks for getting in contact!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>We'll be in touch shortly</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="ack-message alert alert-success text-center" role="alert">
+        <h3>Thank you, we'll be in touch shortly!</h3>
+      </div> -->
     </section>
+
+    <!-- <div class="modal fade" id="acknowledge" tabindex="-1" aria-labelledby="acknowledgeLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="acknowledgeLabel">Thank you!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>We'll be in touch with you shorty</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
 
     <footer class="footer container-fluid py-4 bg-secondary text-light">
       <h5 class="text-center">

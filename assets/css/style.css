@@ -163,6 +163,10 @@ p, ul {
   background-image: linear-gradient(to right, #767270, #a4b4cc);
 }
 
+.ack-message {
+  visibility: hidden;
+}
+
 
 @media (max-width: 768px) {
   .navbar-collapse,
