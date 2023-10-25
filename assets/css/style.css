@@ -5,6 +5,10 @@
   --blue: dodgerblue;
 }
 
+html {
+  background-color: #e3e3e3;
+}
+
 body {
   max-width: 1300px;
   margin: 0 auto !important;
@@ -17,7 +21,7 @@ h4,
 h5,
 h6
  {
-  font-family: 'Montserrat', sans-seri
+  font-family: 'Montserrat', sans-seri;
 }
 
 p, ul {
@@ -49,10 +53,11 @@ p, ul {
 
 .contact-link {
   padding: 4px 8px !important;
+  color: white !important;
 }
 
 .navigation {
-  background-color: white;
+  background-color: #e3e3e3;
 }
 
 .navbar {
@@ -100,12 +105,9 @@ p, ul {
 }
 
 .hero {
-  /* height: 600px !important; */
-  /*background-position: fixed;
-  background-attachment: scroll; */
+
   position: relative;
-  /* display: flex;
-  align-items: center; */
+
 }
 
 .carousel-item img {
@@ -140,6 +142,7 @@ p, ul {
 
 .card {
   height: 95% !important;
+  
 }
 
 .card-body {
@@ -162,10 +165,23 @@ p, ul {
 
 .platform-sect {
   background-color: white;
+  margin-bottom: 1rem;
 }
 
 #contact {
-  background-image: linear-gradient(to right, #767270, #a4b4cc);
+  background-color: #e3e3e3;
+}
+
+.footer {
+  background-color: #e3e3e3;
+}
+
+.contact-hero {
+  height: 50vh;
+  background: url('../images/waterfall.webp');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .ack-message {

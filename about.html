@@ -65,7 +65,7 @@
                   ><span class="col--green insights">Green Insights</span></a
                 >
               </li> -->
-              <li class="nav-item btn btn-success btn-contact invisible">
+              <li class="nav-item btn btn-success btn-contact">
                 <a class="nav-link contact-link" href="./about.html">Get in contact</a>
               </li>
             </ul>
@@ -74,7 +74,11 @@
       </nav>
     </header>
 
-    <section class="container py-4" id="contact">
+    <section class="container-fluid contact-hero">
+
+    </section>
+
+    <section class="container-fluid py-4" id="contact">
       <h1 class="text-center">Contact us</h1>
       <form onsubmit="return sendMail(this);" id="contact-form" class="mx-5 px-5 py-2 border" autocomplete="on">
         <p class="text-center">
@@ -142,8 +146,57 @@
   
 
     <footer class="footer container-fluid py-2">
-      <p class="text-center mb-0">Navbar - Add when finished</p>
-      <div class="row align-items-center">
+      <nav class="navbar navbar-expand-md w-100 py-0">
+        <div class="container-fluid bg-*">
+          <a class="navbar-brand d-block" href="index.html">
+            <!-- <img
+            src="assets/images/pure-green-hydrogen-high-resolution-logo-color-on-transparent-background.png"
+            alt="Pure Green Hydrogen Logo"
+            width="180"
+            height="100"
+          /> -->
+            Pure<span class="col--green">G</span><span class="col--blue">H</span
+            ><sup>2</sup>
+          </a>
+          <button
+            class="navbar-toggler navbar-toggler-end collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="navbar-collapse collapse"
+            collapse
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto text-end navigation">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./solutions.html">Solutions</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="./green.html"
+                  ><span class="col--green insights">Green Insights</span></a
+                >
+              </li> -->
+              <li class="nav-item btn btn-success btn-contact">
+                <a class="nav-link contact-link" href="./about.html">Get in contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="row container-fluid align-items-center">
         <p class="col fs-1 mb-0">
           <a
             href="https://www.linkedin.com/"
