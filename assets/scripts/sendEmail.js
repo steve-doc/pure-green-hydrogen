@@ -1,7 +1,7 @@
 
 function sendMail(contactForm) {
     emailjs.send("service_0a3s8xf","template_szeqs67", {
-        "to_email": "edna.eames@gmail.com",
+        "to_email": "enda@bizgearbox.com",
         "website": "PureGH2",
         "from_name": contactForm.name.value,
         "from_email": contactForm.email.value,
